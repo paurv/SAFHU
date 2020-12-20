@@ -1,0 +1,162 @@
+html, body {
+    width:100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /* font-family: Open Sans; */
+    /* background-image: linear-gradient( to bottom, #f8f9fa, #f8f9fa 40%, #007bff 62%, #004085 92% ); */
+    background-image: linear-gradient( to bottom, #f8f9fa, #f8f9fa 50%, #007bff 50%, #004085 92% );
+}
+
+#container {
+    /* background-color: rgb(215, 232, 250); */
+    font-weight: bold;
+    height: 100%;
+    padding-top: 55px;
+}
+
+#envolver {
+    height: auto;
+    width: 550px;
+    max-width: 100%;
+    background: white;
+    margin-top: 2%;
+    /* box-shadow: 22px 19px 69px #a8c4e3; */
+    border-radius: 6px;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+.titulo-enc{
+    margin-bottom: .5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+    margin-bottom: 10px;
+}
+
+.quiz-btn {
+    padding: .5rem 0rem;
+    font-size: 21px;
+    line-height: 24px;
+    border-radius: .3rem;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    width: 115px;
+    position: relative;
+    float: right;
+    margin: 8px 9px 8px 2px;
+}
+
+#next a{
+    text-decoration: none !important;
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: black;
+}
+
+button {
+    position: relative;
+    float:right;
+} 
+
+.preg-size{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 6px;
+    font-size: 22px;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 150px;
+}
+
+#enc-sig{
+    display: none;
+    width: 150px;
+}
+
+#cuestmsj{
+    font-size: 24px;
+    text-align: center;
+}
+
+.list-group-item {
+    font-weight: 400;
+}
+
+.btn-outline-secondary{
+    color: #004085;
+    font-size: 25px;
+    border-radius: 50%;
+    margin-right: 40px;
+    border-color: transparent;
+}
+
+.btn-outline-secondary:hover{
+    color: #fff;
+    background-color: #004085;
+    border-color: #004085;
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active, .btn-outline-secondary:not(:disabled):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle{
+    color: #fff;
+    background-color: #004085;
+    border-color: #004085;
+}
+
+#load-img{
+    height: 80px;
+}
+
+#load-cont{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.check-ico{
+    color: #007bff;
+}
+
+.fail-ico{
+    color: red;
+}
+
+.quiz-btn-red{
+    background-color: #36009f;
+}
+
+.fa-times{
+    margin-bottom: -2.5px !important;
+}

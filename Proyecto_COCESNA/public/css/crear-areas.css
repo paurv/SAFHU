@@ -1,0 +1,39 @@
+body{
+    background-color: white !important;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: white;
+    border-bottom: 0;
+}
+
+.card{
+    border-radius: 4px;
+}
+
+.card:hover{
+    /* background-color: #f7f7f7; */
+    cursor: pointer;
+}
+
+.titulo-enc{
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.descripcion-enc{
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.btn-area-preg{
+    color: #fff !important;
+    background-color: #004085;
+    border-color: #004085;
+}
+
+.list-group .list-group-item:hover{
+    color: whitesmoke;
+}

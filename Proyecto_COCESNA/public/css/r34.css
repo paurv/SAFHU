@@ -1,0 +1,35 @@
+a, u {
+  text-decoration: none;
+}
+
+::placeholder{
+  color: lightblue;
+  opacity: 1;
+}
+
+#box-iniciar-sesion{
+  background: rgb(49,10,115);
+  background: linear-gradient(0deg, rgba(49,10,115,1) 0%, rgba(48,45,253,1) 100%); max-width:500px;
+}
+
+.btn-largo{
+  width: 100%; height: 100%;
+}
+
+#btn-filtro-si{
+  width: 40%;
+}
+
+#btn-filtro-no{
+  width: 40%;
+}
+
+#box-repuestas-filtro{
+  height: 80px;
+}
+
+.contrasena, .numeroEmpleado
+{
+    background: transparent;
+    color: aliceblue;
+}
